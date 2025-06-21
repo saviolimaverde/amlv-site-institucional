@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Cores customizadas para AMLV */
+.bg-navy {
+  background-color: #0a0f1c; /* Azul muito escuro, quase preto */
+}
+
+.bg-slate-800 {
+  background-color: #1a1f2e; /* Azul escuro alternativo */
+}
+
+.bg-slate-900 {
+  background-color: #0f1419; /* Azul muito escuro para footer */
+}
+
+.text-gold, .icon-gold {
+  color: #ffd700; /* Amarelo dourado */
+}
+
+.bg-gold {
+  background-color: #ffd700; /* Amarelo dourado */
+}
+
+.border-gold {
+  border-color: #ffd700; /* Amarelo dourado */
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: #0a0f1c;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #ffed4e, #ffd700);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: #0a0f1c;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(135deg, #ffed4e, #ffd700);
+  transform: translateY(-2px);
+}
+
+.team-card {
+  background: rgba(26, 31, 46, 0.8);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 215, 0, 0.4);
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.125rem;
+  }
+}
+
